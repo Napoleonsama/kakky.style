@@ -12,9 +12,9 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://napoleonsama.github.io/Kakky.style/css/style.css"/>
-   <link rel="stylesheet" href="./assets/css/style.css">
    <link rel="stylesheet" href="./assets/css/sanitize.css">
+   <link rel="stylesheet" href="https://napoleonsama.github.io/Kakky.style/style.css"/>
+   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
    
@@ -29,7 +29,7 @@
    <header class="header">
       <h1 class="header-logo">
             <img src="./images/icons8-airbnb.svg" alt="airbnb">
-            かっきーすたいる Inc.
+            Airbomb
       </h1>
       <nav class="header-nav">
          <ul class="header-navlist">
@@ -40,13 +40,18 @@
                <a href="#">Feature</a>
             </li>
             <li class="header-navitem">
-               <a href="#">Article</a>
+               <a href="#">Chat</a>
+            </li>
+            <li class="header-navitem">
+               <a href="#">Update</a>
             </li>
             <li class="header-navitem">
                <a href="#">Contact</a>
             </li>
             <li class="header-navitem">
-               <a href="#">President</a>
+                  <a href="https://ffwpu.jp/">
+                    Founder
+                  </a>
             </li>
          </ul>
       </nav>
@@ -129,7 +134,72 @@
    </section>
 
    <section class="sections">
-      <h1 class="section-headlines">Article</h1>
+      <h1 class="section-headlines">Chat</h1>
+   <div class="chat">
+      <div class="chat1">
+         <div class="face">
+            <img src="./images/Amano.jpg" alt="amano">
+            
+         </div>
+         <div class="talk">
+            お前なんで日本おるねん。ちょっと前までイギリス留学行ってたやないか、尻尾巻いて逃げてきたんか？
+         </div>
+      </div>
+      <div class="chat2">
+         <div class="face">
+            <img src="./images/kurimatu.jpg" alt="kakky">
+            
+         </div>
+         <div class="talk">
+            違いやすよ。たしかにこの前までオックスフォードで勉強してたでやんすけど、足挫いて帰国したでやんす。
+         </div>
+      </div>
+      <div class="chat1">
+         <div class="face">
+            <img src="./images/Amano.jpg" alt="amano">
+            
+         </div>
+         <div class="talk">
+            足挫いて帰国した？意味わからんどゆことやねん。詳しく教えてくれや。
+         </div>
+      </div>
+      <div class="chat2">
+         <div class="face">
+            <img src="./images/kurimatu.jpg" alt="kakky">
+         
+         </div>
+         <div class="talk">
+            実は、吹雪さんが怪我から復帰したので帰らされたでやんす。。。。みんな空港まで見送りに来てくれたから👍で返したでやんす。
+         </div>
+      </div>
+      <div class="chat1">
+         <div class="face">
+            <img src="./images/Amano.jpg" alt="amano">
+         </div>
+         <div class="talk">
+           辛いな同情するわ。そういやこの前飛行機がロケランで撃ち落されたって話なかったっけ？
+         </div>
+      </div>
+      <div class="chat2">
+         <div class="face">
+            <img src="./images/kurimatu.jpg" alt="kakky">
+         </div>
+         <div class="talk">
+            ありましたでやんす。たしか容疑者は衛宮切嗣でやんす。Fateに出てきそうな名前でやんす。
+         </div>
+      </div>
+      <div class="chat1">
+         <div class="face">
+            <img src="./images/Amano.jpg" alt="amano">
+         </div>
+         <div class="talk">
+           え、、、、、、その犠牲者ってたしか、、、、、、
+         </div>
+      </div>
+   </div>
+
+   <section class="sections">
+      <h1 class="section-headlines">Update</h1>
       <ul class="grid grid-col-3">
          <li class="grid-items">
 
@@ -139,7 +209,7 @@
                   <img class="card-image2" src="./images/splatoon.jpg" alt="Splatoon-sublime">
                   <div class="card-info">
                      <time class="card-time" datetime="2022-10-29">2022.10.29</time>
-                     <h1 class="card-headline">Splatoon3 was launched!!!</h1>
+                     <h1 class="card-headline">Splatoon3 was launched!</h1>
                      <p class="card-description">Let's bully our little child!</p>
                   </div>
                   <dl class="avator">
@@ -161,8 +231,8 @@
                   <img class="card-image2" src="./images/cod.jpg" alt="Cod mobile-sublime">
                   <div class="card-info">
                      <time class="card-time" datetime="2022-10-29">2022.10.28</time>
-                     <h1 class="card-headline">Cod Mobile was destroyed</h1>
-                     <p class="card-description">My name is GOD. Be yourself.</p>
+                     <h1 class="card-headline">김비서가 왜 그럴까 방송되고 있어요.</h1>
+                     <p class="card-description">キム・ミソが可愛すぎる！</p>
                   </div>
                   <dl class="avator">
                      <dt class="avator-name">Yusuke</dt>
@@ -201,7 +271,7 @@
 
       <div class="section-button">
          <a href="#" class="button">
-            Article Page
+            Update Page
          </a>
       </div>   
    </section>
@@ -245,18 +315,26 @@
                <td><input class="input" type="email" id="email"></td>
            </tr>
            <tr>
+            <th>
+               <label for="tel">
+                  Phonenumber
+               </label>
+            </th>
+            <td><input class="input" type="tel" id="tel"></td>
+           </tr>
+           <tr>
                <th>
                   Gender
                </th>
                <td>
                   <label class="radio">
-                     <input type="radio" name="gender" value="male"> Male
+                     <input type="checkbox" name="gender" value="male"> Male
                   </label>
                   <label class="radio">
-                     <input type="radio" name="gender" value="female"> Female
+                     <input type="checkbox" name="gender" value="female"> Female
                   </label>
                   <label class="radio">
-                     <input type="radio" name="gender" value="other"> Other
+                     <input type="checkbox" name="gender" value="other"> Other
                   </label>
                </td>
            </tr>
@@ -277,12 +355,12 @@
       </form>
    </section>
    <section class="section">
-      <h1 class="section-headline">President</h1>
+      <h1 class="section-headline2">Founder</h1>
       <figure class="preds">
          <img src="./images/Kakky.style.jpg" alt="kakky">
          <figcaption class="preds-intro">
             <div class="preds-explain">
-               垣内　義英（かきうち　よしひで）
+               垣内　義英（aka かっきーすたいる）
                
             </div>
             <div class="preds-explain2">
@@ -295,6 +373,11 @@
                <a href="https://www.instagram.com/k_m_y_d">
                <img src="./images/instafinal.png" alt="insta">
                k_m_y_d
+               </a>
+            </div>
+            <div class="form-button2">
+               <a href="https://ffwpu.jp/">
+               <button class="button3" type="submit">献金はこちら</button>
                </a>
             </div>
          </figcaption>
@@ -315,7 +398,7 @@
          <figcaption class="footer-mapinfo">
             <div class="footer-maplogo">
                <img src="./images/icons8-airbnb.svg" alt="">
-               かっきーすたいる Inc.
+               かっきーすたいる株式会社
             </div>
             <address class="footer-address">
                〒174-8711 東京都板橋区東新町２丁目２８−１<br/>
@@ -326,7 +409,7 @@
       </figure>
       <hr class="footer-line">
       <div class="footer-copy">
-      &copy;Copyright   かっきーすたいる Inc.
+      &copy;Copyright   かっきーすたいる株式会社
       </div>
    </footer>
    <script src="assets/js/app.js"></script>
