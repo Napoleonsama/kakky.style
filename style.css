@@ -81,21 +81,63 @@ label, input, textarea, select, button {
 .grid-items {
    list-style: none;
 }
+/*chat*/
+
+.chat {
+   margin: 50px 0 50px 60px;
+   padding: 50px 50px 50px 60px;
+}
+.face img {
+   height: 80px;
+   width: 80px;
+   border-radius: 50%;
+}
+.chat1, .chat2 {
+   display: flex;
+   margin: 15px 0;
+}
+.chat2 {
+   flex-direction: row-reverse;
+}
+.chat1 .face {
+   flex: 0 0 70px;
+   margin: 0 10px 0 0;
+}
+.chat2 .face {
+   flex: 0 0 70px;
+   margin: 0 0 0 10px;
+}
+.talk {
+   flex: 0 1 auto;
+   font-weight: bold;
+   padding: 1.7rem;
+   border-radius: 20px;
+}
+.chat1 .talk {
+   background: rgb(190, 226, 59);
+}
+.chat2 .talk {
+   background: aqua;
+}
+.talk p {
+   margin: 0;
+}
+
+
 /*.sections {
    
 }*/
-.section-headlines{
+.section-headlines {
    text-align: center;
    font-size: 40px;
    font-weight: bold;
    padding-left: 40px;
-}
-.sections .section-headlines h1 {
-   margin: 70px 0;
+   margin-top: 140px;
 }
 
 .card {
    padding: 0 10px;
+   width: 100%;
 }
 .card-link{
    display: block;
@@ -105,9 +147,9 @@ label, input, textarea, select, button {
    transition: background-color .25s;
 }
 .card-image2 {
-   height: 210px;
-   min-width: 350px;
-   width: 100%;
+   height: 250px;
+   object-fit: cover;
+   width: 380px;
 
 }
 .card-link:hover {
@@ -121,7 +163,7 @@ label, input, textarea, select, button {
    font-size: 12px;
    left: 0;
    top: 0;
-   background-color: #999;
+   background-color: #777;
 }
 .card-info{
    padding: 5px 10px;
@@ -171,6 +213,7 @@ label, input, textarea, select, button {
 .section-button  {
    text-align: center;
    padding: 30px 0 30px 10px;
+   margin-bottom: 140px;
 }
 /*
 header
@@ -178,6 +221,7 @@ header
 
 .header {
    width: 100%;
+   background-color: #ccc;
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -191,9 +235,8 @@ header
 .header-logo {
    margin: 0;
    text-decoration: none;
-   color: #eee;
+   color: black;
    padding: 10px;
-   margin-top: 10px;
 }
 .header-logo > a {
    display: block;
@@ -208,7 +251,7 @@ header
 .header-navitem > a {
    display: block;
    padding: 10px;
-   color: #eee;
+   color: black;
    text-decoration: none;
    font-weight: bold;
 }
@@ -217,6 +260,18 @@ header
    transition: border-color 2s;
 }
 
+.header-navitem2 > a {
+   display: block;
+   padding: 10px;
+   color: gold;
+   text-decoration: none;
+   font-weight: bold;
+}
+
+.header-navitem2 > a:hover {
+   border-bottom: 2px solid transparent;
+   transition: border-color 2s;
+}
 
 /*
 hero
@@ -303,7 +358,7 @@ hero
    background-color:  rgb(73, 46, 60);
 }
 .works {
-   margin: 40px 0 40px 50px;
+   margin: 80px 0 80px 50px;
    padding: 20px;
    text-align: center;
 }
@@ -366,6 +421,13 @@ hero
    margin-left: 40px;
 }
 
+.section-headline2 {
+   text-align: center;
+   font-size: 40px;
+   font-weight: bold;
+   margin: 60px 40px 40px 40px;
+   padding-left: 45px;
+}
 
 .preds{
    margin: 0;
@@ -376,7 +438,7 @@ hero
 
 }
 .preds img {
-   max-height: 300px;
+   max-height: 500px;
    width: 300px;
 }
 
@@ -386,16 +448,16 @@ hero
 }
 
 .preds-explain {
-   font-size: 40px;
+   font-size: 30px;
    font-weight: bold;
 }
 
 .preds-explain2 {
-   font-size: 20px;
+   font-size: 18px;
    margin: 15px 0;
 }
 .preds-explain3 {
-   font-size: 20px;
+   font-size: 18px;
 }
 .preds-explain3 img {
    height: 20px;
@@ -406,4 +468,26 @@ hero
 }
 .preds-explain3 a:hover{
    color: rgb(227, 35, 182);
+}
+.form-button2 {
+   margin: 15px 0;
+   padding: 30px 0 0 0;
+}
+.button3 {
+   display: inline-block;
+   background-color: #444;
+   color: #fff;
+   padding: 10px 30px;
+   text-decoration: none;
+   border-radius: 5px;
+   font-size: 15px;
+   font-weight: bold;
+   width: 200px;
+   font-family: 'Comfortaa', cursive, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+   transition: width .5s;
+}
+
+.button3:hover {
+   width: 250px;
+   background-color: red;
 }
