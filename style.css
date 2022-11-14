@@ -221,7 +221,6 @@ header
 
 .header {
    width: 100%;
-   background-color: #ccc;
    display: flex;
    justify-content: space-between;
    align-items: center;
